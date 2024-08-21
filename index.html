@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <header class="header_conteiner">
+            <a href="https://www.alura.com.br"> <img src="imagens/logoalura.png" alt="logo da alura" class="header_logo" target="_blank" rel="noopener noreferrer"></a>
+        </header>
+        <main  class="main_conteiner">
+            <div class="coluna_1">
+                <textarea type="text" class="coluna_1_input" id="texto_input" placeholder="Digite seu texto"></textarea>
+                <div class="coluna_1_conteiner2">
+                    <div class="coluna_1_aviso"> 
+                        <img src="imagens/exclamação.png" alt="alerta" class="coluna_1_aviso_alertapng">    
+                        <p class="coluna_1_aviso_texto"> Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="coluna_1_botoes">
+                        <button class="botao_criptografar" type="button" id="btnCriptografar" onclick="codificar()"> Criptografar </button>
+                        <button class="botao_descriptografar" type="button" id="btnDescriptografar" onclick="descriptografar()"> Descriptografar </button>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna_2_conteiner">
+                <div class="retangulo"></div>
+                <!--<img id="coluna_2_imagem_retangulo" src="imagens/retangulo.png" height="760" width="600">-->
+                <div class="conteudo-sobreposto">
+                    <div class="depois">
+                        <textarea type="text" class="coluna_2_textarea_resultado" id="textoresultado"></textarea>
+                        <div id="coluna_2_botao">
+                        </div>
+                    </div>
+                    <div class="antes">
+                        <img id="coluna_2_imagem_pessoa" src="imagens/pessoa.png">
+                        <h1 class="coluna_2_mensagem1">Nenhuma mensagem encontrada</h1>
+                        <p class="coluna_2_mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+           <main class="rodape">
+                <h3 class="Murylo">Desenvolvido por Murylo Gomes</h3>
+                <a href="https://github.com/MuryloGomes"><img src="imagens/linkedin.png.png" alt="linkedin" class="rodape_linkedin" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.linkedin.com/in/murylogomesalves/" target="_blank" rel="noopener noreferrer"><img src="imagens/github.png.png" alt="github" class="rodape_github"></a>
+            </main>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
