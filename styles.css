@@ -437,13 +437,13 @@ body {
   }
 
   .coluna_1_input {
-    width: 77%;
+    width: 79%;
     padding-top: 56px;
 
   }
 
   .coluna_1_botoes {
-    width: 77%;
+    width: 79%;
     height: 158px;
     display: flex;
     flex-direction: column;
@@ -472,14 +472,14 @@ body {
   }
 
   .coluna_1_aviso {
-    width: 77%;
+    width: 79%;
     padding-top: 18%;
     padding-bottom: 5%;
   }
 
   .coluna_2_conteiner {
     width: 100%;
-    height: 186px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -487,7 +487,7 @@ body {
 
   #coluna_2_imagem_retangulo {
     height: 100%;
-    width: 100%;
+    width: 700px;
     border-radius: 32px;
   }
 
@@ -501,19 +501,22 @@ body {
   }
 
   .coluna_2_textarea_resultado {
+    height: 100%;
     margin-top: 3%;
   }
 
   .retangulo {
-    width: 77%;
-    height: 186px;
+    width: 79%;
+    height: 100%;
   }
 
   .coluna_2_mensagem1 {
-    width: 327px;
+    width: 80%;
   }
 
   .coluna_2_mensagem2 {
-    width: 327px;
+    width: 80%;
   }
+
+  
 }
