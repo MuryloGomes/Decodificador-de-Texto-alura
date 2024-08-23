@@ -87,9 +87,7 @@ function criarBotaoCopiar() {
 
 //Oculta os elementos que atrapalha o resultado
 function ocultarElemento() {
-  document.querySelector('.coluna_2_mensagem1').style.display = 'none';
-  document.querySelector('.coluna_2_mensagem2').style.display = 'none';
-  document.getElementById('coluna_2_imagem_pessoa').style.display = 'none';
+  document.querySelector('.antes').style.display = 'none';
   document.getElementById('textoresultado').style.display = "block";
 }
 
@@ -97,28 +95,6 @@ function ocultarElemento() {
 Criptografar.addEventListener('click', ocultarElemento);
 Criptografar.addEventListener('click', processarTexto);
 Criptografar.addEventListener('click', criarBotaoCopiar);
-//Criptografar.addEventListener('click', autoGrow)
-//Criptografar.addEventListener('click', deletarDiv);
 
 Descriptografar.addEventListener('click', processarTextoDescriptografado);
 Descriptografar.addEventListener('click', criarBotaoCopiar);
-
-function deletarDiv() {
-  var div = document.getElementById('antes');
-  if (div) {
-      div.remove(); // Remove a div do DOM
-  }
-}
-
-/*function autoGrow(element) {
-  element.style.height = "auto";  // Reseta a altura da textarea
-  element.style.height = (element.scrollHeight) + "px";  // Ajusta a altura de acordo com o conteúdo
-}
-
-// Aplica a função autoGrow apenas em dispositivos móveis
-if (window.innerWidth <= 1000) {
-  const textarea2 = document.getElementById('texto_input');
-  textarea2.addEventListener('input', function() {
-      autoGrow(this);
-  });
-}*/
